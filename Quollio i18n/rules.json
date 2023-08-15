@@ -1,0 +1,51 @@
+{
+  "search_rule_set": "ルールセットを検索",
+  "search_rule": "ルールを検索",
+  "rule_set_archive_description": "ルールセットをアーカイブするとアセットに付与されている全ての適用タグが外れます。",
+  "rule_set_delete_description":  "<1>注意</1>: <0>{{item}}</0> とその配下の全てのルールがシステムから完全に削除されます。",
+  "rule_archive_description":  "ルールをアーカイブするとアセットに付与されている全ての適用タグが外れます。",
+  "rule_delete_description": "<1>注意</1>: <0>{{item}}</0> システムから完全に削除されます。",
+  "create_rule_set": "ルールセットを作成",
+  "create_rule": "ルールを作成",
+  "regarding": "適用元",
+  "then_attach": "付与するタグ",
+  "and": "かつ",
+  "or": "または",
+  "if": "もし",
+  "on": "適用先",
+  "object": "対象",
+  "operator": "演算子",
+  "add_condition": "条件を追加する",
+  "property_missing": "プロパティが見つかりません",
+  "operators": {
+    "is": "一致する",
+    "is_not": "一致しない",
+    "contain": "含む",
+    "not_contain": "含まない",
+    "begin_with": "〜で始まる",
+    "not_begin_with": "〜で始まらない",
+    "end_with": "〜で終わる",
+    "not_end_with": "〜で終わらない",
+    "regex_match": "正規表現を満たす",
+    "is_empty": "空である",
+    "is_not_empty": "空でない",
+    "after": "〜より後",
+    "before": "〜より前",
+    "from": "〜から",
+    "until": "〜まで",
+    "between": "〜の間"
+  },
+  "objects": {
+    "service_name": "サービス名",
+    "physical_name": "物理名",
+    "logical_name": "論理名",
+    "description": "概要",
+    "comment_on_ddl": "DDL内のコメント"
+  },
+  "values": {
+    "case_sensitive": "大文字小文字を区別"
+  },
+  "details": {
+    "rule_set_name": "ルールセット名"
+  }
+}

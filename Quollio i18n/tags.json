@@ -1,0 +1,28 @@
+{
+  "frequently_used_tags": "よく使用されるタグ",
+  "frequently_used_tags_description": "アセットへの付与数が多いタグ",
+  "explore_tags": "タグを探す",
+  "no_used_tag": "使用中のタグがありません",
+  "new_tag_category_name": "新規タグカテゴリ名",
+  "search_tag_category": "タグカテゴリを検索",
+  "search_tag": "タグを検索",
+  "number_of_applied_rule_sets": "適用中のルールセット数",
+  "number_of_attached_assets": "付与中のアセット数",
+  "create_tag": "タグを作成",
+  "create_tag_category": "タグカテゴリを作成する",
+  "tag_category_archive_description": "タグカテゴリをアーカイブすると、全てのアセットおよびルールから、関連するタグが外れます",
+  "tag_archive_description": "タグをアーカイブすると、全てのアセットおよびルールから、対象のタグが外れます",
+  "tag_category_delete_description": "<1>注意</1>: タグカテゴリ <0>{item}</0> を削除すると、対象のタグカテゴリとその全ての子タグがシステムから完全に削除されます",
+  "tag_delete_description": "<1>注意</1>：タグ <0>{item}</0> を削除すると、対象のタグがシステムから完全に削除されま",
+  "tag_category_name_error": "タグカテゴリ名は一意（同一名称は一つのみ）かつ 、 \",\" と \"/\" は使用できません",
+  "tag_name_error": "タグ名は一意（同一名称は一つのみ）かつ 、 \",\" と \"/\" は使用できません",
+  "details": {
+    "tag_name": "タグ名",
+    "tag_category_name": "タグカテゴリ名"
+  },
+  "tooltips": {
+    "description": "このタグに関する概要",
+    "number_of_applied_rule_sets": "このタグに適応されているルールセットの数",
+    "number_of_attached_assets": "このタグが付いているアセットの数"
+  }
+}

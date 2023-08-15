@@ -1,0 +1,86 @@
+{
+  "search_an_asset": "アセットを検索する",
+  "explore_assets": "アセットを探す",
+  "no_accessed_asset": "アクセスされたアセットがありません",
+  "popular_tables": "注目されているテーブル",
+  "popular_tables_description": "アクセス数の多いテーブル一覧",
+  "favorite_assets": "{count, plural, =0 {お気に入りにアセットを登録するとここに表示されます} other {お気に入りアセット}}",
+  "schema": "{count, plural, =0 {\"{name}\"はスキーマがありません} other {スキーマ}}",
+  "table": "{count, plural, =0 {テーブルがありません} other {テーブル}}",
+  "column": "{count, plural, =0 {カラムがありません} other {カラム}}",
+  "parent_table": "親テーブル",
+  "workbook": "{count, plural, =0 {ワークブックがありません} other {ワークブック}}",
+  "dashboard": "{count, plural, =0 {ダッシュボードがありません} other {ダッシュボード}}",
+  "sheet": "{count, plural, =0 {シート} other {シート}}",
+  "statistics": "統計情報",
+  "access_log": "アクセスログ",
+  "no_information": "情報がありません",
+  "asset_details": {
+    "comment_on_ddl": "{count, plural, =0 {DDL内のコメントはありません} other {DDL内のコメント}}",
+    "ddl_statement": "{count, plural, =0 {DDLがありません} other {DDL}}",
+    "physical_name": "物理名",
+    "logical_name": "論理名",
+    "rule_tag": "{count, plural, =0 {ルールタグがありません} other {ルールタグ}}",
+    "manual_tag": "{count, plural, =0 {マニュアルタグがありません} other {マニュアルタグ}}",
+    "table_name": "テーブル名",
+    "ext_name": "外部名",
+    "ext_description": "外部概要"
+  },
+  "filters": {
+    "keyword": "キーワードで検索",
+    "asset_type": "アセットの種類",
+    "service_name": "サービス名",
+    "source": "入力元",
+    "metadata_agent": "Metadata agent",
+    "csv": "CSV",
+    "favorite": "{boolean, select, true {お気に入り} other {お気に入り以外}}",
+    "source_status": "元データの状態",
+    "existance": "{boolean, select, true {存在} other {消失}}",
+    "archived": "{boolean, select, true {アーカイブ済み} other {アーカイブでない}}",
+    "search_field": "検索フィールド"
+  },
+  "data": {
+    "imported_from_csv": "CSVインポート",
+    "lost_in_source": "元データ消失",
+    "archived": "アーカイブ済み",
+    "most_accessed_by": "アクセス数が多いメンバー",
+    "number_of_access": "アクセス数",
+    "no_access_log_data": "指定した日付範囲にアクセスログは存在しません",
+    "statistics": {
+      "size": "サイズ",
+      "cardinality": "カージナリティ",
+      "missing_value": "欠測値",
+      "standard_error": "標準誤差",
+      "kurtosis": "尖度",
+      "skewness": "歪度",
+      "count": "レコード数"
+    }
+  },
+  "tooltips": {
+    "description": "このデータアセットに関する備考",
+    "comment_on_ddl": "DDL (Data Definition Language) 内に記載されているコメント",
+    "asset_tags": "このデータアセットに付与されたタグ。白は手動タグ、グレーはルールによって付与されたタグを意味します。",
+    "statistics": {
+      "size": "データの大きさ",
+      "count": "レコードの数"
+    }
+  },
+  "properties": {
+    "property_set": "{count, plural, =0 {プロパティセットがありません} other {プロパティセット}}",
+    "property": "{count, plural, =0 {プロパティがありません} other {プロパティ}}",
+    "types": {
+      "free_input": "自由入力",
+      "single_choice": "単一選択",
+      "multiple_choice": "複数選択",
+      "asset": "アセット",
+      "user": "ユーザー",
+      "datetime": "日時",
+      "url": "URL",
+      "attachment": "添付ファイル"
+    }
+  },
+  "most_accessed": "アクセス数",
+  "total_access": "閲覧数",
+  "data_owner": "{count, plural, =0 {オーナーがありません} other {オーナー}}",
+  "source_table": "{count, plural, =0 {ソーステーブルがありません} other {ソーステーブル}}"
+}

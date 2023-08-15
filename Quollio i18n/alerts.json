@@ -1,0 +1,49 @@
+{
+  "alerts": "{count, plural, =1 {アラート} other {アラート}}",
+  "search_notification_rules": "通知ルールを検索する",
+  "active": "アクティブ",
+  "inactive": "停止中",
+  "duplicate": "複製",
+  "copy": "(コピー)",
+  "notification_receiver": "通知先のユーザー",
+  "conditions": "条件",
+  "trigger_object": "トリガーオブジェクト",
+  "scope_of_trigger_asset": "トリガーアセットの範囲",
+  "trigger_condition": "通知条件",
+  "show_active": "アクティブを表示",
+  "show_inactive": "停止中を表示",
+  "create_new_notification_rule": "通知ルールの新規作成",
+  "edit_notification_rule": "通知ルールの編集",
+  "title": "タイトル",
+  "standard_metadata": "基本メタデータ",
+  "select_asset": "アセットを選択",
+  "title_error": "重複したタイトルは使用できません。",
+  "triggers": {
+    "any": "全て",
+    "is_self": "アセット自身",
+    "any_standard_metadata": "全ての基本メタデータ",
+    "any_custom_metadata": "全てのカスタムメタデータ",
+    "logical_name":"論理名",
+    "description": "概要",
+    "comment_on_ddl":"DDL内のコメント",
+    "ddl_statement": "DDL",
+    "tags/rule_tag": "ルールタグ",
+    "tags/manual_tag": "マニュアルタグ",
+    "statistics/count": "統計情報 - レコード数",
+    "statistics/size": "統計情報 - サイズ"
+  },
+  "trigger_operators": {
+    "is_created": "作成される",
+    "is_deleted": "削除される",
+    "is_updated": "更新される",
+    "is_archived": "アーカイブされる",
+    "is_unarchived": "アーカイブが解除される",
+    "is_lost": "消失する",
+    "is_recovered": "復元する"
+  },
+  "scopes": {
+    "any_asset": "全てのアセット",
+    "specific_asset": "指定のアセット",
+    "data_of_selected_type": "指定タイプに関する全てのアセット"
+  }
+}

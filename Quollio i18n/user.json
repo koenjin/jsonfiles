@@ -1,0 +1,64 @@
+{
+  "search_user": "ユーザー名かメールアドレスで検索",
+  "name": "名前",
+  "family_name": "姓",
+  "given_name": "名",
+  "actions": "アクション",
+  "disable": "アカウントを停止",
+  "enable": "アカウントを再開",
+  "lock": "ロック",
+  "unlock": "ロック解除",
+  "status": {
+    "status": "ステータス",
+    "all": "全て",
+    "enabled": "アクティブ",
+    "disabled": "アカウント停止",
+    "locked": "ロック中",
+    "waiting_for_activation": "アクティベーション待ち"
+  },
+  "idp_disconnected": "IdPの欠損",
+  "role": {
+    "role": "ロール",
+    "external": "外部",
+    "default": "デフォルト",
+    "viewer": {
+      "title": "閲覧者",
+      "description": "閲覧者は全てのアセット、タグの閲覧ができます"
+    },
+    "editor": {
+      "title": "編集者",
+      "description": "編集者は登録された全てのアセット、タグ、ルールの閲覧と編集ができます"
+    },
+    "admin": {
+      "title": "管理者",
+      "description": "管理者は編集者ができる全ての権限に加え、ユーザーの招待やロールの変更ができます"
+    },
+    "external_viewer": {
+      "title": "閲覧者 (外部)",
+      "description": "閲覧者は全てのアセット、タグの閲覧ができます"
+    },
+    "external_editor": {
+      "title": "編集者 (外部)",
+      "description": "編集者は登録された全てのアセット、タグ、ルールの閲覧と編集ができます"
+    },
+    "external_admin": {
+      "title": "管理者 (外部)",
+      "description": "管理者は編集者ができる全ての権限に加え、ユーザーの招待やロールの変更ができます"
+    },
+    "default_viewer": {
+      "title": "閲覧者 (デフォルト)",
+      "description": "閲覧者は全てのアセット、タグの閲覧ができます"
+    },
+    "default_editor": {
+      "title": "編集者 (デフォルト)",
+      "description": "編集者は登録された全てのアセット、タグ、ルールの閲覧と編集ができます"
+    },
+    "default_admin": {
+      "title": "管理者 (デフォルト)",
+      "description": "管理者は編集者ができる全ての権限に加え、ユーザーの招待やロールの変更ができます"
+    }
+  },
+  "errors": {
+    "already_exists": "既に存在するメールアドレスです"
+  }
+}

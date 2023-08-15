@@ -1,0 +1,16 @@
+{
+  "asset": "アセット",
+  "data_source": "{count, plural, =0 {アセットが登録されていません} other {データソース}}",
+  "data_catalog": "カタログ",
+  "tag": "{count, plural, =0 {タグがありません} other {タグ}}",
+  "tag_glossary": "タグ用語集",
+  "tag_category": "{count, plural, =0 {タグカテゴリがありません} other {タグカテゴリ}}",
+  "custom_data_category": "{count, plural, =0 {カスタムカテゴリがありません} other {カスタムカテゴリ}}",
+  "no_custom_data_category": "ここには作成されたカスタムカテゴリが表示されます",
+  "rule_set": "{count, plural, =0 {ルールセットがありません} other {ルールセット}}",
+  "rule": "{count, plural, =0 {ルールがありません} other {ルール}}",
+  "property_missing": "プロパティがありません",
+  "system": "システム",
+  "external_tag": "{count, plural, =0 {外部タグがありません} other {外部タグ}}",
+  "project": "{count, plural, =0 {プロジェクトがありません} other {プロジェクト}}"
+}

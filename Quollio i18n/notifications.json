@@ -1,0 +1,30 @@
+{
+  "alert": "{hasSourceObjectName, select, true {<0>{person}</0> が <3>{data_source}</3> の <2>{property}</2> を <1>{type}</1>} other {<0>{person}</0> が <2>{property}</2> <1>{type}</1>}}",
+  "alert_no_property": "<0>{person}</0> が <3>{data_source}</3> を <1>{type}</1>",
+  "notification_center": "通知センター",
+  "delete_all": "全て削除",
+  "no_notifications": "通知はありません",
+  "load_more": "さらに読み込む",
+  "commented_on": "<0>{user}</0> が <2>{item}</2> <1>にコメントしました</1>",
+  "mention": "メンション",
+  "following": "フォロー中",
+  "notification_type": {
+    "is_created": "を 作成しました",
+    "is_deleted": "を 削除しました",
+    "is_updated": "を 更新しました",
+    "is_archived": "を アーカイブしました",
+    "is_unarchived": "を アーカイブ解除しました",
+    "is_recovered": "の 消失を確認しました",
+    "is_lost": "の 復元を確認しました"
+  },
+  "property": {
+    "logical_name": "論理名",
+    "description": "概要",
+    "comment_on_ddl": "DDL内のコメント",
+    "ddl_statement": "DDL",
+    "tags/rule_tag": "タグ",
+    "tags/manual_tag": "タグ",
+    "statistics/count": "統計情報 - カウント",
+    "statistics/size": "統計情報 - サイズ"
+  }
+}

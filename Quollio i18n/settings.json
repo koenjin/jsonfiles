@@ -1,0 +1,103 @@
+{
+  "password_error": "パスワードは文字数が8文字以上かつ、大文字・小文字・数字・特殊文字をそれぞれ1つ以上含ませてください",
+  "name_minimum_length": "最小1文字",
+  "name_maximum_length": "最大50文字",
+  "change_password": "パスワードの変更",
+  "old_password": "旧パスワード",
+  "new_password": "新しいパスワード",
+  "new_password_confirmation": "新しいパスワードの再入力",
+  "passwords_do_not_match": "パスワードが一致しません",
+  "tooltips": {
+    "created_at": "ユーザーアカウントが作成された日時",
+    "language": "言語設定はQuollioからの通知メール等に使用されます"
+  },
+  "custom_data_category": {
+    "create_new": "カテゴリを作成"
+  },
+  "sso_management": {
+    "view_reference": "詳細を表示",
+    "reference_modal": {
+      "title": "SSO設定詳細",
+      "entity_id": "エンティティID",
+      "authorized_domain": "認可ドメイン",
+      "redirect_url": "リダイレクトURL"
+    },
+    "delete_modal": {
+      "title": "本当に <0>{name}</0> を削除しますか?",
+      "message": "<0>{name}</0> を削除すると、関連する全てのユーザーはQuollioにログインできなくなります。本当によろしいですか?",
+      "challenge": "確認のため、SSOプロバイダ名を入力してください",
+      "challenge_input_placeholder": "SSOプロバイダ名を入力"
+    },
+    "new_integration": {
+      "basic_information": "基本情報",
+      "provider_name": "プロバイダー名",
+      "provider_name_placeholder": "プロバイダー名を入力",
+      "authentication_protocol": "認証プロトコル",
+      "metadata_url": "メタデータURL",
+      "metadata_url_placeholder": "メタデータURLを入力",
+      "metadata_file": "メタデータファイル",
+      "client_id": "クライアントID",
+      "client_id_placeholder": "クライアントIDを入力",
+      "client_secret": "クライアントシークレット",
+      "client_secret_placeholder": "クライアントシークレットを入力",
+      "issuer": "発行者のURL",
+      "issuer_placeholder": "発行者のURLを入力",
+      "attribute_mappings": "属性マッピング",
+      "enter_attribute": "連携する外部IdPの属性名を入力",
+      "email": "email",
+      "family_name": "family_name",
+      "given_name": "given_name",
+      "groups": "groups",
+      "locale": "locale",
+      "email_verified": "email_verified",
+      "profile": "profile",
+      "groups_description": "\"groups\" 属性は必須ではありませんが、設定推奨です",
+      "profile_description": "\"profile\" 属性は必須ではありませんが、設定推奨です",
+      "additional_attributes": "追加属性",
+      "select_attribute": "属性を選択",
+      "enter_additional_attribute": "対応する属性を入力",
+      "role_mappings": "ロールマッピング",
+      "select_role": "ロールの選択",
+      "default_role": "デフォルトのロール",
+      "enter_role_attribute": "group属性が取りうる値を入力",
+      "token_settings": "トークン設定",
+      "id_token_expiration": "IDトークンの有効期限 (分)",
+      "access_token_expiration": "アクセストークンの有効期限 (分)",
+      "refresh_token_expiration": "リフレッシュトークンの有効期限 (日)",
+      "default_language": "デフォルト言語"
+    },
+    "errors": {
+      "something_went_wrong": "SSO連携の設定時に、エラーが発生しました",
+      "url_error": "\"https://\" で始まり、有効な形式のURLを入力してください",
+      "provider_name_error": "プロバイダ名は最小3文字、最大32文字かつ、文字列の最初と最後に特殊文字は使用できず、既に存在しているプロバイダ名も使用できません",
+      "invalid_parameter": "不正なパラメータが存在しています。入力されたパラメータが正しいものか確認してください"
+    }
+  },
+  "credential_management": {
+    "delete_modal": {
+      "title": "<0>{name}</0>を完全に削除しますか？",
+      "message": "<0>{name}</0>を削除すると、そのクレデンシャルを使用する全てのクライアントが外部APIへアクセスできなくなります。",
+      "challenge": "確認のため、クライアント名を入力してください。",
+      "challenge_input_placeholder": "クライアント名を入力"
+    },
+    "create_modal": {
+      "title_success": "新しいクレデンシャルが正常に作成されました",
+      "message_success": "クライアントIDおよびクライアントシークレットをコピーしてください。このウィンドウを閉じた後、クライアントシークレットは再度表示されません。"
+    },
+    "edit_modal": {
+      "title": "クレデンシャルを編集"
+    },
+    "client_id": "クライアントID",
+    "client_secret": "クライアントシークレット",
+    "client_secret_warning": "このウィンドウを閉じた後、クライアントシークレットは再度表示されません。",
+    "click_to_view": "クリックして閲覧",
+    "token_endpoint": "トークンURL",
+    "create_new_credential": "新しいクレデンシャルを作成",
+    "access_token_expiration": "アクセストークンの有効期限（分）",
+    "created_on": "作成日",
+    "errors": {
+      "client_name_error": "クライアント名はユニークかつ、最大32文字までです。",
+      "access_token_expiration_error": "アクセストークンの有効期限は60分から1440分までの範囲を指定してください。"
+    }
+  }
+}
